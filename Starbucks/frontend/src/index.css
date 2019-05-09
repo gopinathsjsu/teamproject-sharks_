@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  background-image: url("https://amazingpict.com/wp-content/uploads/2015/04/starbucks-coffee.jpg");
+  background-size: cover;
+}
+
+#header {
+  background-color: rgba(9, 75, 18, 0.785);
+  height: 100px;
+  padding: 15px 0;
+  text-align: center;
+}
+
+#headerTitle {
+  color: white;
+  font-family: 'Pacifico', cursive;
+  font-size: 50px;
+  display: inline-block;
+}
+
+#headerLogo {
+  width: 65px;
+  height: 65px;
+  float: left;
+  margin: 0 20px;
+}
+
+.tab {
+  margin: 50px auto;
+  padding: 10px;
+  border-radius: 25px;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 1000px;
+  height: 450px;
+  color: white;
+}
+
+#loginTab {
+  width: 300px;
+  display: inline-block;
+  margin: 20px auto;
+  padding: 20px 30px;
+}
+
+#mynavbar {
+  border-radius: 10px;
+}
