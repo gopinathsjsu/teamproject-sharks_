@@ -2,7 +2,9 @@ import React, { Component } from 'react'
 import { Route } from 'react-router-dom'
 import Header from './Header/Header'
 import Login from './Login/Login'
-import Home from './Home/Home'
+import Profile from './Profile/Profile'
+import Menu from './Menu/Menu'
+import Order from './Order/Order'
 
 export class Main extends Component {
   render() {
@@ -10,7 +12,9 @@ export class Main extends Component {
       <div>
         <Route path ="/" component={Header} />
         <Route path ="/login" component={Login} />
-        <Route path ="/home" component={Home} />
+        <Route path="/menu" component={Menu} />
+        <Route path="/profile" component={Profile} />
+        <Route path="/order" component={Order} />
       </div>
     )
   }

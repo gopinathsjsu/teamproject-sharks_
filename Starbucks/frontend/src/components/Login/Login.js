@@ -51,13 +51,13 @@ export class Login extends Component {
             email: this.state.email,
             password: this.state.password
         }
-        console.log(data)
+        // console.log(data)
         axios.post( rootUrl + "/login", data)
         .then((response) => {
             console.log(response.data)
             if(response.data.message==="success"){
                 Cookies.set("email", data.email)
-                this.props.history.push("/home")
+                this.props.history.push("/menu")
             }
             else {
                 swal(response.data.message)
@@ -72,14 +72,14 @@ export class Login extends Component {
             email: this.state.newemail,
             password: this.state.newpassword
         }
-        console.log(data)
+        // console.log(data)
         axios.post( rootUrl + "/signup", data)
         .then((response) => {
             console.log(response.data)
             if(response.data.message==="success"){
                 swal("Signup Successful!")
                 Cookies.set("email", data.email)
-                this.props.history.push("/home")
+                this.props.history.push("/menu")
             }
             else{
                 swal(response.data.message)
@@ -107,7 +107,7 @@ export class Login extends Component {
                         <Form.Control type="password" name="password" placeholder="Password" onChange={this.passwordHandler} required />
                     </Form.Group>
                     
-                    <Button variant="primary" type="submit">
+                    <Button variant="dark" type="submit">
                         Submit
                     </Button>
                 </Form>
@@ -130,7 +130,7 @@ export class Login extends Component {
                         <Form.Control type="password" name="password" placeholder="Password" onChange={this.newpasswordHandler} required />
                     </Form.Group>
 
-                    <Button variant="primary" type="submit">
+                            <Button variant="dark" type="submit">
                         Submit
                         </Button>
                 </Form>

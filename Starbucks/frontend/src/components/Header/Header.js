@@ -5,8 +5,7 @@ export class Header extends Component {
 
     constructor(props){
         super(props)
-        if(Cookies.get("email")) this.props.history.push("/home")
-        else this.props.history.push("/login")
+        if(!Cookies.get("email")) this.props.history.push("/login")
     }
 
   render() {
