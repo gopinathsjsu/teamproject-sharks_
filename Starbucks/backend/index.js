@@ -57,7 +57,15 @@ app.post("/signup", (req, res) => {
 })
 
 app.get("/profile", (req, res) => {
-    res.send("Get profile data")
+    // console.log(req.body)
+    User.findOne({ email: req.query.email })
+    .exec(function (error, user) {
+        if (error) res.json({ message: "error" })
+        else {
+            if (user === null) res.json({ message: "unauthorised"})
+            else res.json({message:"success", data:user })
+        }
+    });
 })
 
 app.get("/menu", (req, res) => {
