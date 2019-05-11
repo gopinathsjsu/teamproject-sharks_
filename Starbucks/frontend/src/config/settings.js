@@ -1,1 +1,1 @@
-export const rootUrl = "http://localhost:3001"
+export const rootUrl = "18.236.110.10:8080"
