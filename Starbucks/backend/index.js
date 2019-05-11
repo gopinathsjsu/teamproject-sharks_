@@ -68,12 +68,40 @@ app.get("/profile", (req, res) => {
     });
 })
 
-app.get("/menu", (req, res) => {
-    res.send("Get menu data")
+app.post("/addcard", (req, res) => {
+    const data = req.body
+    // console.log("Data: ",data)
+    User.findOneAndUpdate({ email: data.email }, { $set: { cardno: data.cardno } }, (err,result) => {
+        if(err) res.json({ message: "error"})
+        else{
+            User.findOneAndUpdate({ email: data.email }, { $set: { cvv : data.cvv } }, (err, result) => {
+                User.findOneAndUpdate({ email: data.email }, { $set: { amount : "20.00" } }, (err, result) => {
+                    // console.log(result)
+                    if(err) res.send({ message: "error"})
+                    else res.json({ message: "success"})
+                })
+            })
+        }
+    })
 })
 
-app.get("/cards", (req, res) => {
-    res.send("Get user cards")
+app.post("/postpayment", (req, res) => {
+    // console.log(req.body)
+    const data = req.body
+    User.findOneAndUpdate({ email: data.email}, { $set : { amount: data.amount}}, (err,result) => {
+        if(err) res.json({ message: "error"})
+        else{
+            const order = new Order({
+                email: data.email,
+                item: data.item,
+                time: data.time
+            })
+            order.save((err, result) => {
+                if(err) res.json({ message: "error"})
+                else res.json({ message: "success" })
+            })
+        }
+    })
 })
 
 app.get("/orders", (req, res) => {
