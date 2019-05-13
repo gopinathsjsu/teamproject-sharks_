@@ -13,10 +13,10 @@
 * Sandeep J - Login API & Sign up API
 
 ### XP Core Values Implemented:
-* Shivang Mistry - Simplicity
-* Saumil Shah - Communication
-* Sarath Vattikuti - Courage
-* Sandeep J - Feedback
+* Shivang Mistry - [Simplicity](https://github.com/gopinathsjsu/teamproject-sharks_/blob/master/Documentation/XPcorevalues.md)
+* Saumil Shah - [Communication](https://github.com/gopinathsjsu/teamproject-sharks_/blob/master/Documentation/XPcorevalues.md)
+* Sarath Vattikuti - [Courage](https://github.com/gopinathsjsu/teamproject-sharks_/blob/master/Documentation/XPcorevalues.md)
+* Sandeep J - [Feedback](https://github.com/gopinathsjsu/teamproject-sharks_/blob/master/Documentation/XPcorevalues.md)
 
 ### [Sprint Task Sheet](https://github.com/gopinathsjsu/teamproject-sharks_/blob/master/Documentation/CMPE%20202%20-%20Sprint%20Task%20Sheet.xlsx)
 
