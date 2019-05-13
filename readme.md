@@ -28,5 +28,11 @@
 ### Architecture Diagram:
 ![Architecture Diagram](https://github.com/gopinathsjsu/teamproject-sharks_/blob/master/Images/Architecture.png)
 
+### Component Diagram:
+![Component Diagram](https://github.com/gopinathsjsu/teamproject-sharks_/blob/master/Images/starbucks_component.png)
+
+### Deployment Diagram:
+![Deployment Diagram](https://github.com/gopinathsjsu/teamproject-sharks_/blob/master/Images/starbucks_deployment.png)
+
 
 
