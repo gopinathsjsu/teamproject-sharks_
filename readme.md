@@ -4,7 +4,7 @@
 * Shivang Mistry
 * Saumil Shah
 * Sarath Vattikuti
-* Sandeep J
+* Sai Sandeep Jyothula
 
 ### [Tasks](https://github.com/gopinathsjsu/teamproject-sharks_/blob/master/Starbucks/backend/index.js):
 * Shivang Mistry - Frontend & Order API
@@ -22,7 +22,11 @@
 
 ### [Project Journal](https://github.com/gopinathsjsu/teamproject-sharks_/blob/master/Documentation/Project%20Journal.md)
 
+### Development Stack:
+![Development Stack](https://github.com/gopinathsjsu/teamproject-sharks_/blob/master/Images/mern%20stack%20development.png)
+
 ### Architecture Diagram:
 ![Architecture Diagram](https://github.com/gopinathsjsu/teamproject-sharks_/blob/master/Images/Architecture.png)
+
 
 
