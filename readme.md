@@ -14,6 +14,8 @@
 
 ### [Sprint Task Sheet](https://github.com/gopinathsjsu/teamproject-sharks_/blob/master/Documentation/CMPE%20202%20-%20Sprint%20Task%20Sheet.xlsx)
 
+### [Project Journal](https://github.com/gopinathsjsu/teamproject-sharks_/blob/master/Documentation/Project%20Journal.md)
+
 ### Architecture Diagram:
 ![Architecture Diagram](https://github.com/gopinathsjsu/teamproject-sharks_/blob/master/Images/Architecture.png)
 
