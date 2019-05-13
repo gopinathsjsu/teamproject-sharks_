@@ -12,3 +12,6 @@
 * Sarath Vattikuti - Add Card API & Payment API
 * Sandeep J - Login API & Sign up API
 
+### Architecture Diagram:
+![Architecture Diagram](https://github.com/gopinathsjsu/teamproject-sharks_/blob/master/Images/Architecture.png)
+
